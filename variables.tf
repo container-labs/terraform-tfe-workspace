@@ -34,4 +34,12 @@ variable "ssh_key_id" {
 
 }
 
+variable "organization" {
+  default = "container-labs"
+}
+
+variable "terraform_version" {
+  default = "~> 0.12.26"
+}
+
 

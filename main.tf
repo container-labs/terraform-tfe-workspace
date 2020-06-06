@@ -1,7 +1,7 @@
 resource "tfe_workspace" "cl-workspace" {
   name              = var.name
-  organization      = "container-labs"
-  terraform_version = "~> 0.12.24"
+  organization      = var.organization
+  terraform_version = var.terraform_version
   auto_apply        = var.auto_apply
   ssh_key_id        = var.ssh_key_id
 

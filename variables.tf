@@ -1,5 +1,4 @@
 variable "name" {
-
 }
 
 variable "auto_apply" {
@@ -17,7 +16,7 @@ variable "vcs_repo_identifier" {
 }
 
 variable "oauth_token_id" {
-
+  default = ""
 }
 
 
@@ -27,11 +26,10 @@ variable "vcs_repo_branch" {
 }
 
 variable "working_directory" {
-
 }
 
 variable "ssh_key_id" {
-
+  default = ""
 }
 
 variable "organization" {

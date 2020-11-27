@@ -1,4 +1,4 @@
-resource "tfe_workspace" "workspace" {
+resource "tfe_workspace" "cl-workspace" {
   name              = var.name
   organization      = var.organization
   terraform_version = var.terraform_version
@@ -18,5 +18,5 @@ resource "tfe_team_access" "main" {
   for_each     = toset(var.teams_write_access)
   access       = "write"
   team_id      = each.key
-  workspace_id = tfe_workspace.workspace.id
+  workspace_id = tfe_workspace.cl-workspace.id
 }

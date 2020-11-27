@@ -1,3 +1,3 @@
 output "workspace" {
-  value = tfe_workspace.cl-workspace
+  value = tfe_workspace.workspace
 }

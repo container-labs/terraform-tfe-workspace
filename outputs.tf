@@ -1,4 +1,4 @@
 output "workspace" {
-  value = tfe_workspace.cl-workspace
-  sensitive   = true
+  value     = tfe_workspace.cl-workspace
+  sensitive = true
 }

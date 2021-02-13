@@ -1,6 +1,6 @@
 image:
   file: .devcontainer/gitpod.Dockerfile
 
+# TODO: make this configurable for monorepo support
 tasks:
   - init: terraform init
-    command: 'echo "TODO: Replace with command to start project"'

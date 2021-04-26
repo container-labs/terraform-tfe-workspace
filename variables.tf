@@ -27,5 +27,5 @@ variable "organization" {
 }
 
 variable "terraform_version" {
-  default = "~> 0.14.7"
+  default = "~> 0.15.0"
 }

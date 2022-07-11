@@ -2,7 +2,7 @@ terraform {
   required_providers {
     tfe = {
       source  = "hashicorp/tfe"
-      version = "~> 0.25.3"
+      version = "~> 0.33.0"
     }
   }
   # due to use of sensitive output attibute on output var
